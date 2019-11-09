@@ -1,0 +1,1274 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "article",
+        "type": "ContentType",
+        "createdAt": "2019-10-30T11:53:14.106Z",
+        "updatedAt": "2019-11-09T14:48:40.624Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2019-11-09T14:48:40.624Z",
+        "firstPublishedAt": "2019-10-30T11:53:15.203Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Article",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "date",
+          "name": "date",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "body",
+          "name": "body",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "author"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "author",
+        "type": "ContentType",
+        "createdAt": "2019-10-30T11:53:42.934Z",
+        "updatedAt": "2019-11-09T15:06:22.995Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2019-11-09T15:06:22.995Z",
+        "firstPublishedAt": "2019-10-30T11:53:43.576Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        }
+      },
+      "displayField": "lastname",
+      "name": "Author",
+      "description": "",
+      "fields": [
+        {
+          "id": "lastname",
+          "name": "lastname",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "firstname",
+          "name": "firstname",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b7km0t64rdcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 18,
+        "createdAt": "2019-10-30T11:53:15.346Z",
+        "createdBy": {
+          "sys": {
+            "id": "79hib8nZlbmYwD4Qnkbpge",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2019-11-09T14:48:41.237Z",
+        "updatedBy": {
+          "sys": {
+            "id": "79hib8nZlbmYwD4Qnkbpge",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "article",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "date",
+          "settings": {
+            "ampm": "24",
+            "format": "timeZ"
+          },
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b7km0t64rdcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2019-10-30T11:53:43.715Z",
+        "createdBy": {
+          "sys": {
+            "id": "79hib8nZlbmYwD4Qnkbpge",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2019-11-09T15:06:23.903Z",
+        "updatedBy": {
+          "sys": {
+            "id": "79hib8nZlbmYwD4Qnkbpge",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "author",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "lastname",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "firstname",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "3U15aVKAa0H1hdI6pwA0UN",
+        "type": "Entry",
+        "createdAt": "2019-10-30T11:55:41.443Z",
+        "updatedAt": "2019-11-09T14:49:18.105Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2019-11-09T14:49:18.105Z",
+        "firstPublishedAt": "2019-10-30T11:56:02.688Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "author"
+          }
+        }
+      },
+      "fields": {
+        "lastname": {
+          "en-US": "Hanss"
+        },
+        "firstname": {
+          "en-US": "Andréas"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "6jw9zIqyc72Lg3VLRLi4xn",
+        "type": "Entry",
+        "createdAt": "2019-11-09T14:49:26.251Z",
+        "updatedAt": "2019-11-09T14:51:01.681Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2019-11-09T14:51:01.681Z",
+        "firstPublishedAt": "2019-11-09T14:51:01.681Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Batman"
+        },
+        "date": {
+          "en-US": "2019-11-09T00:00+01:00"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6PsEXzp4l2Doyqm1F41opi"
+            }
+          }
+        },
+        "body": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Batman",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " is a ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Fictional_character"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "fictional",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Superhero"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "superhero",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " appearing in ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/American_comic_book"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "American comic books",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " published by ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/DC_Comics"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "DC Comics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". The character was created by artist ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Bob_Kane"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Bob Kane",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " and writer ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Bill_Finger"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Bill Finger",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ",",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Batman#cite_note-FingerSep2015-2"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "[2]",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Batman#cite_note-FingerOct2015-3"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "[3]",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " and first appeared in ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Detective_Comics"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "italic"
+                          }
+                        ],
+                        "value": "Detective Comics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "\n #27 in 1939. Originally named the \"Bat-Man,\" the character is also \nreferred to by such epithets as the Caped Crusader, the Dark Knight, and\n the World's Greatest Detective.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Batman#cite_note-Fleisher-6"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "[6]",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3U15aVKAa0H1hdI6pwA0UN"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "3uiCfLQtg3iH5jaWLnQ3F3",
+        "type": "Entry",
+        "createdAt": "2019-11-09T15:13:08.013Z",
+        "updatedAt": "2019-11-09T15:16:13.268Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2019-11-09T15:16:13.268Z",
+        "firstPublishedAt": "2019-11-09T15:16:13.268Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Flash"
+        },
+        "date": {
+          "en-US": "2019-11-08T00:00+01:00"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7hlEFYl579kGDEEbfylxvC"
+            }
+          }
+        },
+        "body": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "The Flash",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (or simply ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Flash",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ") is the name of several ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Superhero"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "superheroes",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " appearing in ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/American_comic_book"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "American comic books",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " published by ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/DC_Comics"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "DC Comics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Created by writer ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Gardner_Fox"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Gardner Fox",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " and artist ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Harry_Lampert"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Harry Lampert",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", the original Flash first appeared in ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Flash_Comics"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "italic"
+                          }
+                        ],
+                        "value": "Flash Comics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " #1 (cover date January 1940/release month November 1939).",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Flash_(comics)#cite_note-dc-ency-1"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "[1]",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "\n Nicknamed the \"Scarlet Speedster\", all incarnations of the Flash \npossess \"super speed\", which includes the ability to run, move, and \nthink extremely fast, use superhuman reflexes, and seemingly violate \ncertain ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://en.wikipedia.org/wiki/Physical_law"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "laws of physics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ".",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3U15aVKAa0H1hdI6pwA0UN"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "6PsEXzp4l2Doyqm1F41opi",
+        "type": "Asset",
+        "createdAt": "2019-11-09T14:49:37.104Z",
+        "updatedAt": "2019-11-09T14:50:14.575Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2019-11-09T14:50:14.575Z",
+        "firstPublishedAt": "2019-11-09T14:50:14.575Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Batman"
+        },
+        "description": {
+          "en-US": "About batman"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b7km0t64rdcd/6PsEXzp4l2Doyqm1F41opi/7002dce32b08986903fb5681861bc765/batman.jpg",
+            "details": {
+              "size": 123331,
+              "image": {
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "fileName": "batman.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "id": "7hlEFYl579kGDEEbfylxvC",
+        "type": "Asset",
+        "createdAt": "2019-11-09T15:14:28.870Z",
+        "updatedAt": "2019-11-09T15:14:58.109Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2019-11-09T15:14:58.109Z",
+        "firstPublishedAt": "2019-11-09T15:14:58.109Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The flash"
+        },
+        "description": {
+          "en-US": "The flash"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b7km0t64rdcd/7hlEFYl579kGDEEbfylxvC/1cb85e713fc4c534c46a339b1a1e0604/flash.jpg",
+            "details": {
+              "size": 113653,
+              "image": {
+                "width": 1200,
+                "height": 628
+              }
+            },
+            "fileName": "flash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "5C7Q5g26vPyLHG4MzNjDOq",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b7km0t64rdcd"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "createdAt": "2019-10-30T11:45:40Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "79hib8nZlbmYwD4Qnkbpge"
+          }
+        },
+        "updatedAt": "2019-10-30T11:45:40Z"
+      }
+    }
+  ]
+}

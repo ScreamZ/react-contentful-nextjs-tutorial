@@ -1,0 +1,5 @@
+{
+  "spaceId": "your_space_id_here",
+  "managementToken": "your_content_management_key_here",
+  "content-file": "dump/export.json"
+}

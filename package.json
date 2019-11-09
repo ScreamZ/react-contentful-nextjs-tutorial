@@ -1,0 +1,21 @@
+{
+  "name": "screamz-contentful-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "contentful": "^7.10.0",
+    "next": "9.1.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "contentful-cli": "^1.1.5"
+  }
+}
